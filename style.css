@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #5f72ff, #9b23ea);
+  color: white;
+}
+
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+/* ⭐ NAME STYLE */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(45deg,#ffd369,#ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffd369;
+}
+
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+
+/* ===== BUTTON ===== */
+.btn {
+  background: #ffd369;
+  color: black;
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* ===== SECTIONS ===== */
+.section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 25px;
+}
+
+
+/* ===== CARDS ===== */
+.card {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* ===== CONTACT ===== */
+.contact i {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 25px;
+}
+
+
+/* ===== ANIMATION ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
