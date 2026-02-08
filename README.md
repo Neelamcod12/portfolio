@@ -5,7 +5,7 @@ This is my personal portfolio website created to showcase my skills, projects, a
 The website highlights my work in Java backend development, web technologies, and problem solving. It includes my technical skills, academic background, projects, and contact information.
 
 Live Website:
-https://neelamcod12.github.io/portfolio/
+https://github.com/Neelamcod12/portfolio.git
 
 ## Tech Stack
 HTML  
